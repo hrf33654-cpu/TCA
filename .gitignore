@@ -1,0 +1,43 @@
+# Unity-generated caches and local editor state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Uu]nityGenerated/
+[Ee]xportedObj/
+[Bb]uild/
+[Bb]uilds/
+
+# Unity-generated IDE project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Packaged build outputs
+*.apk
+*.aab
+**/*_BurstDebugInformation_DoNotShip/
+
+# Local IDE and operating-system files
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian's machine-specific workspace layout
+TCAD/.obsidian/workspace.json
+TCAD/.obsidian/workspace-mobile.json

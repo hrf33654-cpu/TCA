@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 3,
+  "presetId": "default",
+  "name": "Default",
+  "projectId": "unity-73ce3c46885e9338d041ce38",
+  "revision": 1,
+  "lastOperationId": "d1a249cf-8ce9-43d6-b0c8-7f193c022c41",
+  "nodes": [
+    {
+      "nodeId": "resource:system:7994132f-822d-4d72-99a4-cfe52b8d8220",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "newSession",
+      "hidden": false,
+      "position": 0
+    },
+    {
+      "nodeId": "resource:system:968bad37-3f2b-4cb7-a54c-f27fe82f9a9d",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "knowledge",
+      "hidden": false,
+      "position": 1
+    },
+    {
+      "nodeId": "resource:system:9d2d1f92-c356-43a8-86d8-51ead1912411",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "collaboration",
+      "hidden": false,
+      "position": 2
+    },
+    {
+      "nodeId": "resource:system:e969e95c-9c3a-48cd-a2f4-6707cb4c53c6",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "assets",
+      "hidden": false,
+      "position": 3
+    },
+    {
+      "nodeId": "resource:system:7916a8e0-ae2d-46c8-979e-1ca586e47a95",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "views",
+      "hidden": false,
+      "position": 4
+    },
+    {
+      "nodeId": "resource:system:1b7aed57-2029-4ad4-991f-e24ed211328b",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "agents",
+      "hidden": false,
+      "position": 5
+    },
+    {
+      "nodeId": "resource:system:e2878d72-679b-4d92-ad88-bed2489212c1",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "system",
+      "resourceId": "archived",
+      "hidden": true,
+      "position": 6
+    },
+    {
+      "nodeId": "resource:session:f4b91f37-2c80-402c-b125-33267e808ba7",
+      "projectId": "unity-73ce3c46885e9338d041ce38",
+      "nodeKind": "resource",
+      "resourceKind": "session",
+      "resourceId": "1a74120e-1154-4927-83f4-1ea408c28f74",
+      "hidden": false,
+      "position": 7
+    }
+  ],
+  "itemStates": []
+}

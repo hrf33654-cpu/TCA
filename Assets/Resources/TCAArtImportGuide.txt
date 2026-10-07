@@ -1,0 +1,27 @@
+﻿TCA 美术导入指引
+
+1. 开场欢迎图
+- 放置路径：Assets/Resources/Intro/welcome_intro.png
+- 运行后 Intro 场景会优先直接使用这张图；缺失时回退为黑底 + 文案版本。
+
+2. 元素卡面图
+- 放置路径：Assets/Resources/CardArt/
+- 推荐命名：
+  - c.png
+  - o.png
+  - cl.png
+  - n.png（当前缺失时会自动回退为占位卡）
+- 也支持按卡牌 id 命名：
+  - co.png
+  - no2.png
+  - h2o2.png
+  - cl2.png
+
+3. 导入设置建议
+- Texture Type: Sprite (2D and UI)
+- Mesh Type: Full Rect
+- Generate Mip Maps: Off
+- Compression: None 或 High Quality
+
+4. 当前行为
+- C / O / Cl / N 若找不到正式图片，会自动使用运行时占位图，不影响原型交互。
