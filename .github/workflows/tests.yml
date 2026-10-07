@@ -1,0 +1,29 @@
+name: Godot Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  gdunit4:
+    name: gdUnit4 on Godot 4.6.2
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run gdUnit4 suites
+        uses: godot-gdunit-labs/gdUnit4-action@v1.2.0
+        with:
+          godot-version: '4.6.2'
+          version: '6.2.1'
+          paths: 'res://tests'
+          timeout: 15
+          warnings-as-errors: true
+          upload-report: true
+          report-name: 'tca-gdunit4-results.xml'
+

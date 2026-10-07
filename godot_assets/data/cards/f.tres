@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"f"
+display_name = "氟 F"
+formula = "F"
+element_symbol = "F"
+category = &"damage"
+energy_cost = 2
+base_damage = 3
+rules_text = "造成 3 点伤害"
+target_kind = &"opponent"
+is_element_card = true
+effects = Array[Dictionary]([{"type": &"damage", "amount": 3}])
+migration_status = &"prototype_fixture"

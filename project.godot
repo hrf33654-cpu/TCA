@@ -1,0 +1,42 @@
+config_version=5
+
+[application]
+
+config/name="TCA"
+config/features=PackedStringArray("4.6", "Forward Plus")
+run/main_scene="res://scenes/menu/main_menu.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[gui]
+
+theme/custom="res://godot_assets/ui/tca_theme.tres"
+
+[input]
+
+end_turn={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":69)]
+}
+resolve_reaction={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":82)]
+}
+clear_reaction={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":67)]
+}
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="forward_plus"

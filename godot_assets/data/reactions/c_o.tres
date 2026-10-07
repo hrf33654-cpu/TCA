@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ReactionRecipe" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/reaction_recipe.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"c_o"
+input_card_ids = Array[StringName]([&"c", &"o"])
+product_ids = Array[StringName]([&"co", &"co2"])
+migration_status = &"migration_temp"
+scientific_review_status = &"unreviewed"

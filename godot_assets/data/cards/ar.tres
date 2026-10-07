@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"ar"
+display_name = "氩 Ar"
+formula = "Ar"
+element_symbol = "Ar"
+category = &"solvent"
+energy_cost = 2
+base_damage = 0
+rules_text = "抽 1 张牌"
+target_kind = &"self"
+is_element_card = false
+effects = Array[Dictionary]([{"type": &"draw_now", "amount": 1}])
+migration_status = &"prototype_fixture"

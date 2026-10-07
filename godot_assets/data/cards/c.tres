@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"c"
+display_name = "碳 C"
+formula = "C"
+element_symbol = "C"
+category = &"buff"
+energy_cost = 1
+base_damage = 0
+rules_text = "本回合下一次合成少消耗 1 点能量"
+target_kind = &"self"
+is_element_card = true
+effects = Array[Dictionary]([{"type": &"next_reaction_discount", "amount": 1}])
+migration_status = &"prototype_fixture"

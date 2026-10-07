@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"cl2"
+display_name = "氯气 Cl₂"
+formula = "Cl₂"
+category = &"damage"
+energy_cost = 2
+base_damage = 4
+rules_text = "造成 4 点伤害"
+target_kind = &"opponent"
+is_element_card = false
+effects = Array[Dictionary]([{"type": &"damage", "amount": 4}])
+migration_status = &"prototype_fixture"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"s"
+display_name = "硫 S"
+formula = "S"
+element_symbol = "S"
+category = &"buff"
+energy_cost = 1
+base_damage = 0
+rules_text = "本回合下一张伤害牌额外造成 1 点伤害"
+target_kind = &"self"
+is_element_card = false
+effects = Array[Dictionary]([{"type": &"next_damage_bonus", "amount": 1}])
+migration_status = &"prototype_fixture"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"n"
+display_name = "氮 N"
+formula = "N"
+element_symbol = "N"
+category = &"buff"
+energy_cost = 1
+base_damage = 0
+rules_text = "本回合你下一次受到的伤害 -1"
+target_kind = &"self"
+is_element_card = true
+effects = Array[Dictionary]([{"type": &"next_incoming_damage_reduction", "amount": 1}])
+migration_status = &"migration_temp"

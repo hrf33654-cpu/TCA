@@ -1,4 +1,5 @@
 # Unity-generated caches and local editor state
+.godot/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -30,6 +31,8 @@
 *.apk
 *.aab
 **/*_BurstDebugInformation_DoNotShip/
+reports/
+exports/
 
 # Local IDE and operating-system files
 .vs/

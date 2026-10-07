@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/domain/card_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"co2"
+display_name = "二氧化碳 CO₂"
+formula = "CO₂"
+category = &"damage"
+energy_cost = 2
+base_damage = 3
+rules_text = "造成 3 点伤害"
+target_kind = &"opponent"
+is_element_card = false
+effects = Array[Dictionary]([{"type": &"damage", "amount": 3}])
+migration_status = &"migration_temp"
